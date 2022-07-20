@@ -3,8 +3,9 @@
     flex-direction: row;
     background-color:#39aef2;
     height: 17vh;
-    width: 100%;
-    flex-wrap: wrap;
+    width: auto;
+    font-weight: 400;
+    font-size: 2.5rem;
     margin-right: 0;
 }
 
@@ -55,8 +56,8 @@
 
 .appFirstButton{
     background-color: #39aef2;
-    height: 2.5rem;
-    width: 10rem;
+    height: 2.9rem;
+    width: 9rem;
     border-radius: 2rem;
     border: 1px solid #39aef2;
     color: white;
@@ -200,8 +201,11 @@
 .appFourthImg{
     height: 80vh;
 }
+.anchor>a {
+    transition: all 0.2s ease-in-out;
+}
 
-/*Adding Media Queries */
+/*Adding Media Queries-Tablets */
 
 @media (max-width: 800px) {
     .appTopContainer {
@@ -228,6 +232,39 @@
   }
 
   @media (max-width: 800px) {
+    .appFourthContainer {
+      flex-direction: column;
+    }
+  }
+
+
+  /*Media Queries-Mobile */
+
+  @media (max-width: 360px) {
+    .appTopContainer {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .appFirstContainer {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .appSecondContainer {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .appSecondButtons {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 360px) {
     .appFourthContainer {
       flex-direction: column;
     }
