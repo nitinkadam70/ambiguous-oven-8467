@@ -1,0 +1,234 @@
+.appTopContainer{
+    display: flex;
+    flex-direction: row;
+    background-color:#39aef2;
+    height: 17vh;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 0;
+}
+
+.appHeading{
+    color: white;
+   margin-top: 2.2rem;
+   margin-left: 10rem;
+   font-size: 3rem;
+   font-weight:400;
+   line-height: 1;
+}
+
+.appFirstContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.appFirstImage{
+    vertical-align: middle;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.appFirstImg{
+    height: 100vh;
+}
+
+.appFirstHeading{
+    font-weight: 350;
+    font-size: 3rem;
+}
+
+.appFirstParagraph{
+    font-weight: 350;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.appFirstDescription{
+    text-align: left;
+    margin-top:12rem;
+    margin-right: 3rem;
+}
+
+.appFirstButton{
+    background-color: #39aef2;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    border: 1px solid #39aef2;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+/* Second Part Css */
+
+.appSecondContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20rem;
+    margin-left: 4rem;
+    margin-bottom: 6rem;
+}
+.appSecondDescription{
+    text-align: left;
+    width: auto;
+}
+
+.appSecondImage{
+    margin-top: 2rem;
+    margin-right: 0;
+    display: flex;
+}
+.appSecondImg{
+    height: 70vh;
+    margin-top: 4rem;
+    margin-right: 0;
+}
+.appSecondButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 7rem;
+    cursor: pointer;
+}
+
+/* Third Div CSS */
+
+.appThirdImg{
+    height: 75vh;
+}
+
+.appThirdDescription{
+    text-align: left;
+    width: auto;
+    margin-right: 3rem;
+    box-sizing: border-box;
+}
+
+.appWindows{
+    background-color: #bdf300;
+    color: #262626;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 30px;
+    /* background-color: #dee2e6; */
+    /* color: #262626; */
+    font-family: inherit;
+    font-size: .875rem;
+    /* font-weight: 400; */
+    font-style: inherit;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.appMac{
+    background-color: #dee2e6;
+    display: inline-block;
+    position: relative;
+    margin-left: 0.6rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    font-family: inherit;
+    font-size: .875rem;
+    /* font-weight: 400; */
+    font-style: inherit;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #262626;
+}
+
+.appMsi{
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem 1.25rem;    
+    margin-left: 0.6rem;
+    border: none;
+    border-radius: 30px;
+    /* background-color: #dee2e6; */
+    /* color: #262626; */
+    font-family: inherit;
+    font-size: .875rem;
+    /* font-weight: 400; */
+    font-style: inherit;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #dee2e6;
+    color: #262626;
+}
+
+/* Fourth Div Css */
+.appFourthContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-top: 10rem;
+}
+
+.appFourthDescription{
+    text-align: left;
+    width: 100%;
+}
+
+.appFourthImg{
+    height: 80vh;
+}
+
+/*Adding Media Queries */
+
+@media (max-width: 800px) {
+    .appTopContainer {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .appFirstContainer {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .appSecondContainer {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .appSecondButtons {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .appFourthContainer {
+      flex-direction: column;
+    }
+  }
