@@ -1,5 +1,6 @@
 import { Box, Button, Heading, ScaleFade, useDisclosure } from '@chakra-ui/react'
 import React from 'react'
+import { useEffect } from 'react'
 import { useState } from 'react'
 import { HomePageSliderOne } from '../Components/SliderHomepage/HomePageSliderOne'
 import { HomePageSliderFive } from '../Components/SliderHomepage/SliderFive'
@@ -10,11 +11,24 @@ import { HomePageSliderTwo } from '../Components/SliderHomepage/SLiderTwo'
 
 const Homepage = () => {
     const [showSlide, setShowSlide] = useState(1)
+    const [i, setI] = useState(1)
 
     const handleShow = (slide) => {
         setShowSlide(slide);
-
     }
+
+
+    useEffect(() => {
+        const id = setInterval(function () {
+            if (showSlide == 5) {
+                setShowSlide(1);
+            }
+            setShowSlide((showSlide) => showSlide + 1);
+        }, 2000)
+
+        return () => clearInterval(id);
+
+    }, [showSlide]);
 
     return (
         <Box maxW={'100%'}>
