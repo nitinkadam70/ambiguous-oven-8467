@@ -88,7 +88,7 @@ const AppPage = () => {
                         <div>
                             <h3>Download Desktop app:</h3>
                         </div>
-                        <div>
+                        <div className={Styles.anchor}>
                             <a className={Styles.appWindows} href="https://dl.bitrix24.com/b24/bitrix24_desktop.exe?_gl=1*163ku5l*_ga*MTI1MzA4NjU0My4xNjU4MjA4Mzgw*_ga_YLDC55MYKM*MTY1ODMwMDAzOC41LjEuMTY1ODMwMDA0Ny4w">For Windows</a>
                             <a className={Styles.appMac} href="https://dl.bitrix24.com/b24/bitrix24_desktop.dmg">For Mac</a>
                             <a className={Styles.appMsi} href="https://dl.bitrix24.com/b24/bitrix24_desktop.msi">Download .msi</a>
