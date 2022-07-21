@@ -28,6 +28,7 @@
 #SecondBox >input:nth-child(2){
    width:15%;
    margin-left: 14%;
+   text-align:center;
 }
 
 #firstGrid{
@@ -37,6 +38,7 @@
     width: 40%;
  margin-left:19%;
  padding-top: 3%;
+ 
 }
 #firstGrid>div{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -69,9 +71,29 @@ line-height:37.5px;
 
 #flex2{
     display: flex;
+    gap:30px;
+    margin-top: 30px;
+   
 }
-#flex2>button{
-    width: 120px;
+#flex24{
+    display: flex;
+    gap:30px;
+    margin-top: auto;
+}
+#flex2>div>a{
+    /* padding:60px 0px 0px 60px; */
+    text-decoration:none;
+    margin-left:60px;
+    color:#31c0f5;
+    height:26px;
+    margin-top: auto;
+    
+}
+#flex2>div>#webinar{
+    padding-left:100px;
+}
+#flex2>div>button{
+    width: 80px;
     margin-left: 20px;
     background-color: rgba(0, 0, 0, 0);
     box-sizing: border-box;
@@ -82,10 +104,11 @@ font-weight: 400;
 height:26px;
 line-height:12px;
 border-radius: 20px;
-border-color: rgb(133, 129, 129);
-margin-top: 10px;
+/* border-color: rgb(133, 129, 129); */
+border:1.5px solid black;
+margin-top: auto;
 }
-#flex2>p{
+#flex2>div>p{
     margin-left:60px;
     color:#31c0f5;
     height:26px;
@@ -120,14 +143,26 @@ margin-top: 10px;
     width:170px;
     background-color:#00aeef ;
     color:#fffdfd;
-    border-color: #fffdfd;
+    border:2px solid white;
     height:50px;
     margin-left: 650px;
-    /* border-bottom-color: rgb(255, 255, 255);
-    border-top-color: rgb(255, 255, 255);
-    border-left-color: rgb(255, 255, 255);
-    border-right-color: rgb(255, 255, 255); */
+   
     font-weight :400;
 }
 
+/* @media (max-width: 800px) {
+    #flex24 {
+      flex-direction: auto;
+    }
+  } */
+  /* @media all and(min-width:50px) and (max-width:380px){
+    #flex24 {
+        grid-template-columns:repeat(1,1fr)
+      }
+  }
+  @media all and(min-width:381px) and (max-width:700px){
+    #flex24>div {
+        grid-template-columns:repeat(1,1fr)
+      }
+  } */
 
