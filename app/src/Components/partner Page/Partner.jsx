@@ -2,6 +2,11 @@ import React from 'react'
 import './partner.css';
 import imgner from './select.png'
 export const Partner = () => {
+    const [show,setShow]=React.useState(false)
+  const  handleMouse=()=>{
+    console.log("true")
+    setShow((prev)=> !prev)
+  }
   return (
     <div>
         <div className="main-heading">
@@ -21,7 +26,7 @@ export const Partner = () => {
            <img  src={imgner}alt="" style={{marginTop:'35px',height:'130px'}} />
         </div>
         <div className="mid-box">
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -31,7 +36,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title' >GOLD</p> <span className='mid-gold-p'>CHENNAI, HYDERABAD,PUNE,MUMBAI, DELHI, BANGALORE, </span></div>
                <p  className="mid-box-p">"Br" de Brasil e "24" de Bitrix24. +850 projetos Bitrix24 executados, +1.200 clientes ativos. Geramos valor e resultado para empresas de todos os tamanhos através de serviços e metodologias exclusivas</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -41,7 +46,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title'>GOLD</p> <span className='mid-gold-p'> DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p" >asesores-e: más de 10 años de experiencia como socios Bitrix, implementaciones atendidas en todos los países hispano hablantes y un objetivo: facilitar la adopción de Bitrix24 en su organización.</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -51,7 +56,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title' >GOLD</p> <span className='mid-gold-p'>INDORE BANGALORE, CHENNAI, HYDERABAD,MUMBAI, DELHI,</span></div>
                <p  className="mid-box-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -61,7 +66,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title'>GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -71,7 +76,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title' >GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p">sit amet consectetur adipisicing elit. Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -81,7 +86,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title'>GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p" >Established Bitrix Gold Partner, Credible SAP Partner,  Trusted Tally Certified Partner Skill India - Learn - Perform - Earn Your Business success at Rajlaxmi World, Happy to aid you on Sale, Support.</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -91,7 +96,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title' >GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p"> Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -101,7 +106,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title'>GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p" >Established Bitrix Gold Partner, Credible SAP Partner,  Trusted Tally Certified Partner Skill India - Learn - Perform - Earn Your Business success at Rajlaxmi World, Happy to aid you on Sale, Support.</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -111,7 +116,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title' >GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p">sit amet consectetur adipisicing elit. Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -121,7 +126,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title'>GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p" >sit amet consectetur adipisicing elit. Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -131,7 +136,7 @@ export const Partner = () => {
               <div className="mid-box-gold"> <p className='mid-gold-title' >GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
                <p  className="mid-box-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
             </div>
-            <div className="mid-box-div">
+            <div className="mid-box-div"  onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
                 <div className="mid-img">
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/authorized_training_provider.png" alt="" />
                     <img className="mid-in-img" src="https://www.bitrix24.com/bitrix/components/bx/b24.partner.list/templates/.default/images/live_chat.png" alt="" />
@@ -139,12 +144,11 @@ export const Partner = () => {
                 </div>
                <p className="mid-box-title">WEbEE LIMITED</p>
               <div className="mid-box-gold"> <p className='mid-gold-title'>GOLD</p> <span className='mid-gold-p'>MUMBAI, DELHI, BANGALORE, CHENNAI, HYDERABAD, KOLKATTA, IN</span></div>
-               <p  className="mid-box-p" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
+              <p  className="mid-box-p" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro eaque ullam et quo? Soluta necessitatibus similique consectetur odit vel eaque quos hic. Praesentium aspernatur soluta molestias ut assumenda dolor voluptatem?</p>
+              
             </div>
           
         </div>
     </div>
   )
 }
-
-                                                          
