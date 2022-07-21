@@ -28,8 +28,8 @@ export const HomePageSliderOne = () => {
             </Box>
             <Box width={'609px'} h='342px'>
                 <Image
-                maxH={'100%'}
-                maxW="100%"
+                    maxH={'100%'}
+                    maxW="100%"
                     src='https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/main/header_banner/workspace.1366w.png.webp?1657634642000' />
             </Box>
         </Box>

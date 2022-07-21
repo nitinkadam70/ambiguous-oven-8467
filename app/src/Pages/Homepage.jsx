@@ -1,4 +1,4 @@
-import { Box, Button, Heading, ScaleFade, useDisclosure } from '@chakra-ui/react'
+import { Box, Button, Heading, HStack, Image, List, ListItem, ScaleFade, Text, useDisclosure, VStack } from '@chakra-ui/react'
 import React from 'react'
 import { useEffect } from 'react'
 import { useState } from 'react'
@@ -7,8 +7,8 @@ import { HomePageSliderFive } from '../Components/SliderHomepage/SliderFive'
 import { HomePageSliderFour } from '../Components/SliderHomepage/SliderFour'
 import { HomePageSliderThree } from '../Components/SliderHomepage/SliderTHree'
 import { HomePageSliderTwo } from '../Components/SliderHomepage/SLiderTwo'
-
-
+import '../App.css'
+import HomepagePricing from '../Components/HomepagePricing'
 const Homepage = () => {
     const [showSlide, setShowSlide] = useState(1)
     const [i, setI] = useState(1)
@@ -60,11 +60,11 @@ const Homepage = () => {
                         margin='0 auto'
                         borderBottom={'2px solid rgba(0,83,170,0.2)'}
                     >
-                        <Button onMouseEnter={() => handleShow(1)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>Collaboration</Button>
-                        <Button onMouseEnter={() => handleShow(2)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>CRM</Button>
-                        <Button onMouseEnter={() => handleShow(3)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>Task & Projects</Button>
-                        <Button onMouseEnter={() => handleShow(4)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>Sites & Stores</Button>
-                        <Button onMouseEnter={() => handleShow(5)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>HR & Automations</Button>
+                        <Button _focus={{ borderBottom: "3px solid rgba(0,90,170,2)" }} onMouseEnter={() => handleShow(1)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>Collaboration</Button>
+                        <Button _focus={{ borderBottom: "3px solid rgba(0,90,170,2)" }} onMouseEnter={() => handleShow(2)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>CRM</Button>
+                        <Button _focus={{ borderBottom: "3px solid rgba(0,90,170,2)" }} onMouseEnter={() => handleShow(3)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>Task & Projects</Button>
+                        <Button _focus={{ borderBottom: "3px solid rgba(0,90,170,2)" }} onMouseEnter={() => handleShow(4)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>Sites & Stores</Button>
+                        <Button _focus={{ borderBottom: "3px solid rgba(0,90,170,2)" }} onMouseEnter={() => handleShow(5)} borderRadius='none' _hover={{ borderBottom: "3px solid rgba(0,90,170,2)" }} fontWeight='600' lineHeight='1' whiteSpace='nowrap' fontSize='1.3125rem' border='none' colorScheme='blue' variant='outline'>HR & Automations</Button>
                     </Box>
 
 
@@ -75,10 +75,57 @@ const Homepage = () => {
                         {showSlide === 4 && <HomePageSliderFour />}
                         {showSlide === 5 && <HomePageSliderFive />}
                     </Box>
-
-
                 </Box>
-
+            </Box>
+            <Box >
+                <Image className='ImageFullWidth' src='https://i.imgur.com/KIINWPe.png' />
+            </Box>
+            <br />
+            <HomepagePricing />
+            <br />
+            <VStack spacing={2} textAlign="center">
+                <Heading fontWeight='400' letterSpacing='-1px' color='#262626' lineHeight='1.2' fontSize="2.625rem">
+                    Bitrix24 in the Press
+                </Heading>
+                <Box display='flex' justifyContent={'space-around'} justifyItems={'center'} w='100%'>
+                    <Box>
+                        <Image src='https://www.bitrix24.in/upload/optimizer/converted/images/content_en/press/icons/color_forbes.png.webp?1658307908000' />
+                    </Box>
+                    <Box>
+                        <Image src='https://www.bitrix24.in/upload/optimizer/converted/images/content_en/press/icons/color_pcmag.png.webp?1658307908000' />
+                    </Box>
+                    <Box>
+                        <Image src='https://www.bitrix24.in/upload/optimizer/converted/images/content_en/press/icons/color_pcworld.png.webp?1658307908000' />
+                    </Box>
+                    <Box>
+                        <Image src='https://www.bitrix24.in/upload/optimizer/converted/images/content_en/press/icons/color_techradar.png.webp?1658307908000' />
+                    </Box>
+                    <Box>
+                        <Image src='https://www.bitrix24.in/upload/optimizer/converted/images/content_en/press/icons/color_zdnet.png.webp?1658307908000' />
+                    </Box>
+                </Box>
+            </VStack>
+            <br />
+            <hr />
+            <br />
+            <br />
+            <Box display='flex' justifyItems='center' width='80%' margin='auto'>
+                <Box>
+                    <List spacing={4}>
+                        <ListItem fontWeight='200' letterSpacing='-1px' color='#262626' lineHeight='1.2' fontSize="2.625rem">
+                            Bitrix24 on prmise
+                        </ListItem>
+                        <ListItem fontSize='1.125rem' fontWeight='200' lineHeight='1.8' width='80%'>
+                            You can use the self-hosted version of Bitrix24 to run on your server. You get full control over data, source code access, and additional tools, such as helpdesk and e-learning, as well as integration and customization options.
+                        </ListItem>
+                        <Button border='2px solid #21bdee' borderRadius='20px' bg='#fff' color='#21bdee' fontWeight='100' p='5px 25px'>
+                            LEARN MORE
+                        </Button>
+                    </List>
+                </Box>
+                <Box width='100%'>
+                    <Image src='https://www.bitrix24.in/upload/optimizer/converted/images/content_common/images/tools/inc/tools_inc_on-premise_3.png.webp?1658307908000' />
+                </Box>
             </Box>
         </Box>
     )
