@@ -77,6 +77,7 @@
     grid-template-columns: repeat(2,1fr);
     gap: 102px;
     padding: 25px 146px 0px;
+    
 }
 .mid-box-title{
     color: #000;
@@ -96,7 +97,7 @@
 }
 .mid-gold-title{
     border-radius: 2px;
-    color: #000;
+   
     float: left;
     font-size: 12px;
     font-weight: bold;
@@ -118,13 +119,24 @@
     }
     .mid-box-p{
        padding:10px 10px ;
+       color:#6a828c;
        /* margin-bottom: 20px; */
     }
     .mid-box-div{
-        border: 1px solid grey;
+        border: 1px solid  #e5ecef;
         padding: 10px 5px
     }
     .mid-box-title:hover{
     color: #0dcaf0;
     cursor: pointer;
+    text-decoration: underline;
+    }
+    .mid-img{
+        display: flex;
+        justify-content: flex-end;
+      
+    }
+    .mid-in-img{
+        height:50px;
+        width:50px;
     }
