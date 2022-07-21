@@ -1,12 +1,8 @@
 .App {
   text-align: center;
-<<<<<<< Updated upstream
 }
 
 * {
   box-sizing: border-box;
   font-family: Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
-=======
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
->>>>>>> Stashed changes
 }
