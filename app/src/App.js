@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import AllRoutes from './Routes/AllRoutes';
 
-function App() {
+const App = () => {
   return (
     <>
       {/* <Navbar /> */}
@@ -11,7 +11,8 @@ function App() {
 
       {/* <Footer /> */}
     </>
-  );
+
+  )
 }
 
-export default App;
+export default App
