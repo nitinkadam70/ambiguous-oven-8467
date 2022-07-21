@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
+    gap: 10px;
 }
 
 .appFirstImage{
@@ -70,6 +71,7 @@
 .appSecondContainer{
     display: flex;
     flex-direction: row;
+    gap: 10px;
     justify-content: space-between;
     margin-top: 20rem;
     margin-left: 4rem;
@@ -201,7 +203,7 @@
 .appFourthImg{
     height: 80vh;
 }
-.anchor>a {
+.anchor>a:hover {
     transition: all 0.2s ease-in-out;
 }
 
