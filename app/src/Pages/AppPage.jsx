@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from '../Styles/AppPage.module.css';
+import Styles from './AppPage.module.css';
 const AppPage = () => {
     return (
         <>
@@ -116,8 +116,6 @@ const AppPage = () => {
                         <img className={Styles.appFourthImg} src='https://www.bitrix24.in/upload/optimizer/converted/images/content_en/apps/api.1600w.jpg.webp?1657897537000' alt='second-img'></img>
                     </div>
                 </div>
-
-
             </div>
         </>
     )
