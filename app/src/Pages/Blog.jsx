@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from "../Styles/Blog.module.css"
+import { Box, IconButton, Input, Select, Stack } from '@chakra-ui/react'
+import { SearchIcon } from '@chakra-ui/icons'
 export const BlogPage = () => {
     return (
         <div>
@@ -15,11 +17,25 @@ export const BlogPage = () => {
             </button>
             <button></button>
         </div> */}
+            <br />
 
-            <div id={styles.SecondBox}>
-                <input placeholder="Search" />
-                <input placeholder="All catogories" />
-            </div>
+            <Box display='flex' justifyContent='center' gap='25%' justifyItems='center'>
+                <Box display='flex' justifyItems='center'>
+                    <Input placeholder='search' />
+                    <IconButton aria-label='Search database' icon={<SearchIcon />} />
+                </Box>
+                <Stack>
+                    <Select placeholder='All Categories'>
+                        <option value='option2'>Communications</option>
+                        <option value='option3'>Task and Projects</option>
+                        <option value='option3'>CRM</option>
+                        <option value='option3'>Contact center </option>
+                        <option value='option3'>website</option>
+
+                    </Select>
+                </Stack>
+            </Box>
+
 
             {/* gridbox */}
             <div id={styles.firstGrid} >
@@ -175,8 +191,6 @@ export const BlogPage = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }

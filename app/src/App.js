@@ -9,6 +9,10 @@ const App = () => {
     <>
       <Navbar />
       <AllRoutes />
+      <br />
+      <br />
+      <br />
+      <br />
       <Footer />
     </>
   )
