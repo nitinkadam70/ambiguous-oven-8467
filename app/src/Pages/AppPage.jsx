@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from './AppPage.module.css';
+import Styles from '../Styles/AppPage.module.css';
 const AppPage = () => {
     return (
         <>
