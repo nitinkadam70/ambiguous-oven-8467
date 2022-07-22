@@ -23,12 +23,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 # `solution page`
 ![image](https://user-images.githubusercontent.com/99539536/180440475-1be8a941-85e5-4dc5-94e3-2795be8f92e0.png)
 
-# `Features`
+# `Contributors 5`
 <ul>
-<li>Slider - Homepage</li>
-<li>Authentication</li>
-<li>Responsive</li>
-<li>Conditional Rendering</li>
+<li>Nitin Kadam</li>
+<li>Sunil Sahu</li>
+<li>Arpit Chaudhary </li>
+<li>Aman Dubey</li>
+<li>Saiyam vaid</li>
 </ul>
 
 
