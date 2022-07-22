@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css';
+import '../Styles/styles.css';
 const LoginPage = () => {
     const [errorMessages, setErrorMessages] = useState({});
     const [isSubmitted, setIsSubmitted] = useState(false);

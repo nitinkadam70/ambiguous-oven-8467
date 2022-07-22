@@ -5,6 +5,8 @@ import BlogPage from '../Pages/Blog'
 import Homepage from '../Pages/Homepage'
 import LoginPage from '../Pages/LoginPage'
 import { Partner } from '../Pages/Partner'
+import PricingPage from '../Pages/PricingPage'
+import Solutionspage from '../Pages/Solutionspage'
 
 const AllRoutes = () => {
     return (
@@ -15,6 +17,9 @@ const AllRoutes = () => {
                 <Route path='/apps' element={<AppPage />} />
                 <Route path='/partners' element={<Partner />} />
                 <Route path='/login' element={<LoginPage />} />
+                <Route path='/solutions' element={<Solutionspage />} />
+                <Route path='/pricing' element={<PricingPage />} />
+
                 <Route />
             </Routes>
         </>
