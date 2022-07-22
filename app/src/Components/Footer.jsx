@@ -80,7 +80,7 @@ const Footer = () => {
                 <div>
                     <p className='sidep'>Copyright © 2022 Bitrix24</p>
                 </div>
-                <div>
+                <div style={{ display: 'flex' }}>
                     <img src={social} />
                     <img src={input} />
                 </div>

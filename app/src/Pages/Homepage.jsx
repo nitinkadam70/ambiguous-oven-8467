@@ -127,7 +127,15 @@ const Homepage = () => {
                     <Image src='https://www.bitrix24.in/upload/optimizer/converted/images/content_common/images/tools/inc/tools_inc_on-premise_3.png.webp?1658307908000' />
                 </Box>
             </Box>
-        </Box>
+            <br />
+            <VStack>
+                <Heading fontWeight='200' letterSpacing='-1px' color='#262626' lineHeight='1.2' fontSize="2.625rem">
+                    Ready to try?
+                </Heading>
+                <br />
+                <Button bg='#a3cd00' fontSize='12px' borderRadius='20px' p='0px 20px' color='white'>REGISTER FREE</Button>
+            </VStack>
+        </Box >
     )
 }
 
