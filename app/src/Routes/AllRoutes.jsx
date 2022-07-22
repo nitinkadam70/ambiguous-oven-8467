@@ -1,15 +1,20 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import AppPage from '../Pages/AppPage'
+import BlogPage from '../Pages/Blog'
 import Homepage from '../Pages/Homepage'
+import LoginPage from '../Pages/LoginPage'
+import { Partner } from '../Pages/Partner'
 
 const AllRoutes = () => {
     return (
         <>
             <Routes>
                 <Route path='/' element={<Homepage />} />
-                <Route />
-                <Route />
-                <Route />
+                <Route path='/blogs' element={<BlogPage />} />
+                <Route path='/apps' element={<AppPage />} />
+                <Route path='/partners' element={<Partner />} />
+                <Route path='/login' element={<LoginPage />} />
                 <Route />
             </Routes>
         </>
