@@ -25,11 +25,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # `Contributors 5`
 <ul>
-<li>Nitin Kadam</li>
-<li>Sunil Sahu</li>
-<li>Arpit Chaudhary </li>
-<li>Aman Dubey</li>
-<li>Saiyam vaid</li>
+<li>Nitin Kadam - Homepage page, Pricing page, Solution page</li>
+<li>Sunil Sahu - Blogs page</li>
+<li>Arpit Chaudhary Apps page and Authentication</li>
+<li>Aman Dubey - Partner page</li>
+<li>Saiyam vaid - Navbar and Footer</li>
 </ul>
 
 
