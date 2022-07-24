@@ -27,7 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 <ul>
 <li>Nitin Kadam - Homepage page, Pricing page, Solution page</li>
 <li>Sunil Sahu - Blogs page</li>
-<li>Arpit Chaudhary Apps page and Authentication</li>
+<li>Arpit Chaudhary Apps page and login page</li>
 <li>Aman Dubey - Partner page</li>
 <li>Saiyam vaid - Navbar and Footer</li>
 </ul>
